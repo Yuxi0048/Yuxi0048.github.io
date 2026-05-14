@@ -15,7 +15,7 @@
         <h2 class="card-title">
           {{ project.title }}
           {% if project.visibility %}
-            <span class="badge rounded">{{ project.visibility }}</span>
+            <span class="visibility-badge">{{ project.visibility }}</span>
           {% endif %}
         </h2>
         <p class="card-text">{{ project.description }}</p>
