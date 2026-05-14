@@ -70,11 +70,11 @@ ninja.data = [{
           window.open("https://github.com/Yuxi0048", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/yuxizhang.github.io/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/yuxi-zhang-3a2baa17b", "_blank");
         },
       },{
       id: 'light-theme',
