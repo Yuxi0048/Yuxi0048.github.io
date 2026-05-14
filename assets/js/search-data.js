@@ -7,35 +7,35 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/yuxizhang.github.io/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "selected publications on GPR, underground utility mapping, construction informatics, and infrastructure inspection.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/yuxizhang.github.io/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/yuxizhang.github.io/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "selected code repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/yuxizhang.github.io/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "A concise public CV draft. Replace or extend this with formal education, publications, and appointments when ready.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/yuxizhang.github.io/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "news-started-a-github-pages-portfolio-draft-using-al-folio",
           title: 'Started a GitHub Pages portfolio draft using al-folio.',
@@ -44,17 +44,17 @@ ninja.data = [{
           title: 'GPR Wheel Encoder--IMU Localization',
           description: "GPR-aided localization for construction and survey robots operating in visually degraded, GNSS-denied environments.",
           section: "Projects",handler: () => {
-              window.location.href = "/yuxizhang.github.io/projects/gpr-wheel-imu-localization/";
+              window.location.href = "/projects/gpr-wheel-imu-localization/";
             },},{id: "projects-pipe-network-completion",
           title: 'Pipe Network Completion',
           description: "Research code package for Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks.",
           section: "Projects",handler: () => {
-              window.location.href = "/yuxizhang.github.io/projects/pipe-network-completion/";
+              window.location.href = "/projects/pipe-network-completion/";
             },},{id: "projects-uncertainty-aware-pipe-localization",
           title: 'Uncertainty-Aware Pipe Localization',
           description: "Uncertainty-aware localization and orientation estimation of underground pipelines using Ground Penetrating Radar (GPR) data.",
           section: "Projects",handler: () => {
-              window.location.href = "/yuxizhang.github.io/projects/uncertainty-aware/";
+              window.location.href = "/projects/uncertainty-aware/";
             },},{
         id: 'social-email',
         title: 'email',
