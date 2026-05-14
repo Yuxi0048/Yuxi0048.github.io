@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -40,7 +40,12 @@ ninja.data = [{
         },{id: "news-started-a-github-pages-portfolio-draft-using-al-folio",
           title: 'Started a GitHub Pages portfolio draft using al-folio.',
           description: "",
-          section: "News",},{id: "projects-gpr-wheel-encoder-imu-localization",
+          section: "News",},{id: "projects-construction-inspection-and-training-system",
+          title: 'Construction inspection and training system',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/construction-inspection-training-system/";
+            },},{id: "projects-gpr-wheel-encoder-imu-localization",
           title: 'GPR Wheel Encoder--IMU Localization',
           description: "GPR-aided localization for construction and survey robots operating in visually degraded, GNSS-denied environments.",
           section: "Projects",handler: () => {
