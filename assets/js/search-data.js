@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "selected public code repositories.",
+          description: "selected code repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/yuxizhang.github.io/repositories/";
@@ -40,12 +40,7 @@ ninja.data = [{
         },{id: "news-started-a-github-pages-portfolio-draft-using-al-folio",
           title: 'Started a GitHub Pages portfolio draft using al-folio.',
           description: "",
-          section: "News",},{id: "projects-gpr-data-classifier",
-          title: 'GPR Data Classifier',
-          description: "Proof-of-concept public repository for detecting and classifying hyperbolas in GPR data.",
-          section: "Projects",handler: () => {
-              window.location.href = "/yuxizhang.github.io/projects/gpr-data-classifier/";
-            },},{id: "projects-gpr-wheel-encoder-imu-localization",
+          section: "News",},{id: "projects-gpr-wheel-encoder-imu-localization",
           title: 'GPR Wheel Encoder--IMU Localization',
           description: "Factor-graph localization using wheel odometry, IMU preintegration, yaw priors, and weak GPR revisit constraints.",
           section: "Projects",handler: () => {
@@ -55,6 +50,11 @@ ninja.data = [{
           description: "Infrastructure data workflow around pipe-network completion and utility-network reasoning.",
           section: "Projects",handler: () => {
               window.location.href = "/yuxizhang.github.io/projects/pipe-network-completion/";
+            },},{id: "projects-uncertainty-aware-pipe-localization",
+          title: 'Uncertainty-Aware Pipe Localization',
+          description: "Uncertainty-aware localization and orientation estimation of underground pipelines from GPR data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/yuxizhang.github.io/projects/uncertainty-aware/";
             },},{
         id: 'social-email',
         title: 'email',
