@@ -42,17 +42,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-gpr-wheel-encoder-imu-localization",
           title: 'GPR Wheel Encoder--IMU Localization',
-          description: "Factor-graph localization using wheel odometry, IMU preintegration, yaw priors, and weak GPR revisit constraints.",
+          description: "GPR-aided localization for construction and survey robots operating in visually degraded, GNSS-denied environments.",
           section: "Projects",handler: () => {
               window.location.href = "/yuxizhang.github.io/projects/gpr-wheel-imu-localization/";
             },},{id: "projects-pipe-network-completion",
           title: 'Pipe Network Completion',
-          description: "Infrastructure data workflow around pipe-network completion and utility-network reasoning.",
+          description: "Research code package for Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks.",
           section: "Projects",handler: () => {
               window.location.href = "/yuxizhang.github.io/projects/pipe-network-completion/";
             },},{id: "projects-uncertainty-aware-pipe-localization",
           title: 'Uncertainty-Aware Pipe Localization',
-          description: "Uncertainty-aware localization and orientation estimation of underground pipelines from GPR data.",
+          description: "Uncertainty-aware localization and orientation estimation of underground pipelines using Ground Penetrating Radar (GPR) data.",
           section: "Projects",handler: () => {
               window.location.href = "/yuxizhang.github.io/projects/uncertainty-aware/";
             },},{
