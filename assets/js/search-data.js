@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "news-started-a-github-pages-portfolio-draft-using-al-folio-开始使用-al-folio-搭建-github-pages-个人主页草稿",
-          title: 'Started a GitHub Pages portfolio draft using al-folio. 开始使用 al-folio 搭建 GitHub Pages...',
+        },{id: "news-started-a-github-pages-portfolio-draft-using-al-folio",
+          title: 'Started a GitHub Pages portfolio draft using al-folio.',
           description: "",
           section: "News",},{id: "projects-gpr-wheel-encoder-imu-localization",
           title: 'GPR Wheel Encoder--IMU Localization',
