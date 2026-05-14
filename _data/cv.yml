@@ -1,14 +1,8 @@
 cv:
   name: Yuxi Zhang
-  label: Ph.D. Candidate in Civil Engineering
   email: zhan2889@purdue.edu
-  location: West Lafayette, Indiana
-  website: https://Yuxi0048.github.io
-  summary: >
-    Civil engineering Ph.D. candidate at Purdue University working on
-    ground penetrating radar (GPR), underground utility mapping,
-    uncertainty-aware localization, construction robotics, digital twins, and
-    infrastructure inspection systems.
+  location: Lafayette, Indiana
+  website: https://Yuxi0048.github.io/yuxizhang.github.io/
 
   social_networks:
     - network: GitHub
@@ -16,112 +10,72 @@ cv:
 
   sections:
     Education:
-      - institution: Purdue University
-        location: West Lafayette, Indiana
-        area: Civil Engineering
-        studyType: Master of Science, Ph.D. Candidate
+      - institution: Purdue University - West Lafayette, Indiana
+        studyType: "Master of Science, Ph.D. Candidate: Civil Engineering"
 
-      - institution: Tianjin University
-        location: Tianjin, China
-        area: Construction Management
-        studyType: Bachelor
+      - institution: Tianjin University - Tianjin, China
+        studyType: "Bachelor: Construction Management"
 
     Experience:
       - company: Purdue University
-        position: Research Assistant, NSF PFI Project Underground Pipe Mapping for Safe Excavation
+        position: Research Assistant, 06/2022 - 12/2024
         location: West Lafayette, IN
-        start_date: 2022-06
-        end_date: 2024-12
+        summary: NSF PFI Project Underground Pipe Mapping for Safe Excavation
         highlights:
-          - Developed algorithms for GPR-based 3D pipe mapping, including uncertainty quantification for pipe localization and orientation, multi-hyperbolic signature detection and tracking, and radargram decluttering.
-          - Designed a graph neural network based utility network completion method using ground features, anchor points, and partial maps to infer missing pipeline segments and enhance subsurface digital twins.
-          - Engineered a construction excavator digital twin for safety, including IMU-based excavator arm motion replication, digital terrain visualization, and object-motion simulations in Unity 3D.
-          - Led more than 100 stakeholder interviews with utility owners, surveyors, and contractors to design and validate a practical business model.
+          - Developing algorithms for Ground Penetrating Radar (GPR)-based 3D pipe mapping, including uncertainty quantification for pipe localization and orientation, multi-hyperbolic signature detection and tracking, and radargram decluttering.
+          - Designed a GNN-based utility network completion method that uses ground features, anchor points, and partial maps to infer missing pipeline segments and enhance subsurface digital twins
+          - Engineered a digital twin system for construction excavators to support construction safety, including replicate excavator arm motion using IMU sensors, created digital terrain visualizations, and object motion simulations in Unity 3D
+          - Led 100+ stakeholder interviews with utility owners, surveyors, and contractors to design and validate a practical business model
 
       - company: Purdue University
-        position: Research Assistant, INDOT and SCDOT Risk-based Inspection Project
+        position: Research Assistant, 01/2018 - 05/2025
         location: West Lafayette, IN
-        start_date: 2018-01
-        end_date: 2025-05
+        summary: INDOT and SCDOT Risk-based Inspection Project
         highlights:
-          - Designed surveys for construction-activity risk assessment.
-          - Converted standard specifications into structured inspection checklists.
-          - Developed a risk-based construction inspection system using Microsoft Access.
-          - Collaborated on a web-based digital inspection training system.
+          - Designed surveys for risk assessment on the construction activities
+          - Converted the standard specification into the structured checklists
+          - Developed risk-based construction inspection system using MS Access
+          - INDOT Digital Inspection Training System
+          - Collaborated on web-based system development for inspection training
 
       - company: Purdue University
-        position: Teaching Assistant
+        position: Teaching Assistant, 01/2018 - 05/2025
         location: West Lafayette, IN
-        start_date: 2018-01
-        end_date: 2025-05
         highlights:
-          - Computer Applications in Construction.
-          - Life Cycle Engineering and Management of Constructed Facilities.
-          - Practical Applications for Construction Engineering.
+          - Computer Applications in Construction
+          - Life Cycle Engineering and Management of Constructed Facilities
+          - Practical Applications for Construction Engineering
 
       - company: United Construction Management (Beijing) Consulting Co., Ltd.
-        position: Intern
+        position: Intern, 08/2016 - 12/2016
         location: Beijing, China
-        start_date: 2016-08
-        end_date: 2016-12
         highlights:
-          - Performed forensic construction delay analysis using BIM to support project dispute resolution.
-          - Developed a coding system to improve project documentation.
+          - Performed forensic construction delay analysis using BIM to support project dispute resolution
+          - Developed coding system to improve project documentation
 
     Publications:
-      - title: GPR-Aided Localization for Construction and Survey Robots in Visually Degraded, GNSS-Denied Environments
-        authors:
-          - Yuxi Zhang
-          - H. Cai
-        publisher: Automation in Construction, under review
-        releaseDate: 2026
-
-      - title: Uncertainty-Aware Localization and Orientation Estimation of Underground Pipelines from GPR Data
-        authors:
-          - Yuxi Zhang
-          - H. Cai
-        publisher: Advanced Engineering Informatics
-        releaseDate: 2026
-        url: https://doi.org/10.1016/j.aei.2025.104093
-
-      - title: Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks
-        authors:
-          - Yuxi Zhang
-          - H. Cai
-        publisher: Proceedings of the International Symposium on Automation and Robotics in Construction
-        releaseDate: 2024
-        url: https://doi.org/10.22260/ISARC2024/0121
-
-      - title: CNN-Based Symbol Recognition in Piping Drawings
-        authors:
-          - Yuxi Zhang
-          - J. Cai
-          - H. Cai
-        publisher: Construction Research Congress 2020
-        releaseDate: 2020
+      - title: "Zhang, Y., & Cai, H. (2026). GPR-Aided Localization for Construction and Survey Robots in Visually Degraded, GNSS-Denied Environments. Automation in Construction (Under Review)."
+      - title: "Zhang, Y., & Cai, H. (2026). Uncertainty-Aware Localization and Orientation Estimation of Underground Pipelines from GPR Data. Advanced Engineering Informatics, https://doi.org/10.1016/j.aei.2025.104093."
+      - title: "Zhang, Y., & Cai, H. (2024). Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks. In ISARC. Proceedings of the International Symposium on Automation and Robotics in Construction (Vol. 41, pp. 936-943). IAARC Publications. https://doi.org/10.22260/ISARC2024/0121"
+      - title: "Zhang, Y., Cai, J & Cai, H. (2020). CNN-Based Symbol Recognition in Piping Drawings. Construction Research Congress 2020"
+      - title: "Jeon, J., Zhang, Y., Yang, L., Xu, X., Cai, H. & Tran, D. (2023). Risk Breakdown Matrix for Risk-based Inspection of Transportation Infrastructure Projects. Journal of Construction Engineering and Management."
+      - title: "Xu, X., Jeon, J., Zhang, Y., Yang, L., & Cai, H. (2021). Automatic Generation of Customized Checklists for Digital Construction Inspection. Transportation Research Record, 0361198121995825. https://doi.org/10.1177/0361198121995825"
+      - title: "Cai, J,, Yang, L., Zhang, Y., Li, S., & Cai, H. (2021). Multitask Learning Method for Detecting the Visual Focus of Attention of Construction Workers. Journal of Construction Engineering and Management, 147(7). https://doi.org/10.1061/(ASCE)CO.1943-7862.0002071"
+      - title: "Cai, J,, Zhang, Y., Yang, L., Cai, H., & Li, S. (2020). A context-augmented deep learning approach for worker trajectory prediction on unstructured and dynamic construction sites. Advanced Engineering Informatics, 46, 101173–. https://doi.org/10.1016/j.aei.2020.101173"
+      - title: "Cai, J,, Zhang, Y., & Cai, H. (2019). Two-step long short-term memory method for identifying construction activities through positional and attentional cues. Automation in Construction, 106, 102886. https://doi.org/10.1016/j.autcon.2019.102886"
+      - title: "Xu, Yuan, C., Zhang, Y., Cai, H., Abraham, D. M., & Bowman, M. D. (2019). Ontology-Based Knowledge Management System for Digital Highway Construction Inspection. Transportation Research Record, 2673(1), 52–65. https://doi.org/10.1177/0361198118823499"
 
     Skills:
-      - name: GPR and sensing
-        keywords: "Ground penetrating radar, radar signal processing, GPR simulation with gprMax, geophysical inversion methods"
-      - name: Inference and learning
-        keywords: "Bayesian inference, uncertainty quantification, machine learning, deep neural networks, graph neural networks"
-      - name: Research software
-        keywords: "Python, PyTorch, PyMC, database design and management, reproducible experiment pipelines"
-      - name: Localization and robotics
-        keywords: "Simultaneous localization and mapping, wheel encoder-IMU localization, construction robotics, digital twins"
+      - name: Bayesian Inference & Uncertainty Quantification
+      - name: Ground Penetrating Radar (GPR) & Radar Signal Processing
+      - name: Geophysical Inversion Methods
+      - name: Machine Learning & Deep Neural Networks
+      - name: Database Design & Management
+      - name: Proficient in Python, PyTorch, and PyMC
+      - name: Simultaneous Localization and Mapping
+      - name: Skilled in GPR Simulation using gprMax
 
     Awards:
-      - title: K.B. Woods Award
-        awarder: Transportation Research Board
-
+      - title: K.B Woods Awards. Transportation Research Board
       - title: First Prize, ASCE Data Sensing and Analysis Shared Data Repository Proposal Competition
-        awarder: ASCE
-
       - title: Completion of NSF National I-Corps Program
-        awarder: National Science Foundation
-
-    Interests:
-      - name: Infrastructure sensing
-        keywords: "underground utility mapping, subsurface digital twins, GPR-aided construction safety"
-      - name: Geospatial AI
-        keywords: "utility network completion, uncertainty-aware localization, field-scale evaluation"
