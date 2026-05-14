@@ -58,10 +58,18 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  figure {
+    margin: 0 0 0.35rem;
+  }
+
+  picture {
+    display: block;
+  }
+
   img {
     display: block;
-    max-width: 75px;
-    width: 25%;
+    max-width: 56px;
+    width: 18%;
   }
 
   .more-info {
@@ -79,6 +87,11 @@ ul.task-list input[type="checkbox"] {
 .profile.float-right {
   margin-left: 1rem;
 
+  figure,
+  .more-info {
+    text-align: right;
+  }
+
   img {
     margin-left: auto;
   }
@@ -86,6 +99,11 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-left {
   margin-right: 1rem;
+
+  figure,
+  .more-info {
+    text-align: left;
+  }
 
   img {
     margin-right: auto;
@@ -95,6 +113,11 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+
+    img {
+      max-width: 75px;
+      width: 25%;
+    }
 
     .address {
       p {
