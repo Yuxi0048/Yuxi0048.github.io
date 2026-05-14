@@ -6,7 +6,7 @@ This repository contains a personal GitHub Pages site based on the
 Target site:
 
 ```text
-https://Yuxi0048.github.io/yuxizhang.github.io/
+https://Yuxi0048.github.io/
 ```
 
 ## What Was Customized
@@ -22,27 +22,19 @@ https://Yuxi0048.github.io/yuxizhang.github.io/
 
 ## Publish Checklist
 
-1. Create a public GitHub repository named exactly `yuxizhang.github.io`.
-2. Push this repository to `https://github.com/Yuxi0048/yuxizhang.github.io.git`.
+1. Create a public GitHub repository named exactly `Yuxi0048.github.io` (the
+   repo name must match the owner exactly for a user/personal page).
+2. Push this repository to `https://github.com/Yuxi0048/Yuxi0048.github.io.git`.
 3. In GitHub, open `Settings -> Actions -> General` and set workflow permissions
    to `Read and write permissions`.
 4. Push to `main` and wait for the deploy workflow to finish.
 5. In `Settings -> Pages`, set the publishing source to the generated
    `gh-pages` branch.
 
-For this project GitHub Pages site under the `Yuxi0048` account, `_config.yml`
-must keep:
+For a personal site under the `Yuxi0048` account, `_config.yml` must keep:
 
 ```yaml
 url: https://Yuxi0048.github.io
-baseurl: /yuxizhang.github.io
-```
-
-If the GitHub account or organization itself is named `yuxizhang`, then the
-site can instead be configured as a personal site with:
-
-```yaml
-url: https://yuxizhang.github.io
 baseurl:
 ```
 
