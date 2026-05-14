@@ -165,3 +165,22 @@
     }
   }
 }
+
+.platform-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.25rem 0;
+
+  a {
+    color: var(--global-text-color);
+    font-size: 1.7rem;
+    line-height: 1;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
