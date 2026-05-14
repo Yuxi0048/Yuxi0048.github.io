@@ -6,8 +6,8 @@ description:
 nav: true
 nav_order: 3
 display_categories:
-  - "PFI-TT: Development of a Mapping and Visualization System to Inform Excavators of Buried Utility Pipes"
-  - Construction inspection and training system
+  - "PFI-TT: Development of a Mapping and Visualization System to Inform Excavators of Buried Utility Pipes (2022-2025)"
+  - "Construction Inspection and Training System (2018-2022, 2025)"
 horizontal: false
 ---
 
