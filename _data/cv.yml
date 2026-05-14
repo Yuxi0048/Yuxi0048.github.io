@@ -27,6 +27,15 @@ cv:
           - Engineered a digital twin system for construction excavators to support construction safety, including replicate excavator arm motion using IMU sensors, created digital terrain visualizations, and object motion simulations in Unity 3D
           - Led 100+ stakeholder interviews with utility owners, surveyors, and contractors to design and validate a practical business model
 
+      - company: National Science Foundation
+        position: National I-Corps, 04/2023
+
+      - company: NSF I-Corps Hub Great Lakes Region
+        position: Regional I-Corps, 07/2022
+        summary: Great Lakes I-Corps Course Completion
+        image: NSF I-Corps Hub Great Lakes Region - Great Lakes I-Corps Course Completion - 2022-07-08.svg
+        image_alt: NSF I-Corps Hub Great Lakes Region badge
+
       - company: Purdue University
         position: Research Assistant, 01/2018 - 05/2025
         location: West Lafayette, IN
@@ -58,6 +67,7 @@ cv:
       - title: "Zhang, Y., & Cai, H. (2026). Uncertainty-Aware Localization and Orientation Estimation of Underground Pipelines from GPR Data. Advanced Engineering Informatics, https://doi.org/10.1016/j.aei.2025.104093."
       - title: "Zhang, Y., & Cai, H. (2024). Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks. In ISARC. Proceedings of the International Symposium on Automation and Robotics in Construction (Vol. 41, pp. 936-943). IAARC Publications. https://doi.org/10.22260/ISARC2024/0121"
       - title: "Zhang, Y., Cai, J & Cai, H. (2020). CNN-Based Symbol Recognition in Piping Drawings. Construction Research Congress 2020"
+        url: https://ascelibrary.org/doi/10.1061/9780784482865.061
       - title: "Jeon, J., Zhang, Y., Yang, L., Xu, X., Cai, H. & Tran, D. (2023). Risk Breakdown Matrix for Risk-based Inspection of Transportation Infrastructure Projects. Journal of Construction Engineering and Management."
       - title: "Xu, X., Jeon, J., Zhang, Y., Yang, L., & Cai, H. (2021). Automatic Generation of Customized Checklists for Digital Construction Inspection. Transportation Research Record, 0361198121995825. https://doi.org/10.1177/0361198121995825"
       - title: "Cai, J,, Yang, L., Zhang, Y., Li, S., & Cai, H. (2021). Multitask Learning Method for Detecting the Visual Focus of Attention of Construction Workers. Journal of Construction Engineering and Management, 147(7). https://doi.org/10.1061/(ASCE)CO.1943-7862.0002071"

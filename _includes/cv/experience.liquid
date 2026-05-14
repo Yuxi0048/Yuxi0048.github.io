@@ -75,6 +75,17 @@
             </h6>
           {% endif %}
 
+          {% if entry.image %}
+            {% assign image_path = entry.image | prepend: '/assets/img/' %}
+            <div class="ml-1 ml-md-4 mb-2">
+              <img
+                src="{{ image_path | relative_url }}"
+                alt="{{ entry.image_alt | default: entry.position }}"
+                style="max-width: 120px; height: auto"
+              >
+            </div>
+          {% endif %}
+
           {% if entry.highlights %}
             <ul class="items">
               {% for item in entry.highlights %}

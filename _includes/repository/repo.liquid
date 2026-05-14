@@ -1,4 +1,12 @@
-{% assign repo_url = include.repository | split: '/' %}
+{% assign repo_name = include.repository.name | default: include.repository %}
+{% if include.repository.url %}
+  {% assign repo_link = include.repository.url %}
+{% else %}
+  {% assign repo_link = repo_name | prepend: 'https://github.com/' %}
+{% endif %}
+{% assign repo_description = include.repository.description %}
+{% assign repo_visibility = include.repository.visibility %}
+{% assign repo_url = repo_name | split: '/' %}
 {% if site.data.repositories.github_users contains repo_url.first %}
   {% assign show_owner = false %}
 {% else %}
@@ -32,16 +40,17 @@
 {% endif %}
 
 <div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.repository }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.repository }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+  <a
+    href="{{ repo_link }}"
+    class="d-block text-left p-3"
+    style="border: 1px solid var(--global-divider-color); border-radius: 6px; min-height: 120px"
+  >
+    <h5 class="mb-2">{{ repo_name }}</h5>
+    {% if repo_description %}
+      <p class="mb-2">{{ repo_description }}</p>
+    {% endif %}
+    {% if repo_visibility %}
+      <span class="badge rounded">{{ repo_visibility }}</span>
+    {% endif %}
   </a>
 </div>
