@@ -77,14 +77,6 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-{% if site.enable_language_toggle %}
-  <!-- Language Toggle -->
-  <script src="{{ '/assets/js/language-toggle.js' | relative_url | bust_file_cache }}"></script>
-  <script>
-    initLanguage();
-  </script>
-{% endif %}
-
 {% if site.enable_darkmode %}
   <!-- Dark Mode -->
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>

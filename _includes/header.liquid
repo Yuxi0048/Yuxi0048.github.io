@@ -42,23 +42,14 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for site_page in site.pages %}
-            {% if site_page.permalink == '/' %}
-              {% assign about_title = site_page.title %}
-              {% assign about_title_zh = site_page.title_zh %}
-              {% assign about_title_en = site_page.title_en %}
-            {% endif %}
+          {% for page in site.pages %}
+            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {% if about_title_zh != blank or about_title_en != blank %}
-                <span data-lang="zh">{{ about_title_zh | default: about_title }}</span>
-                <span data-lang="en">{{ about_title_en | default: about_title }}</span>
-              {% else %}
-                {{- about_title }}
-              {% endif %}
+              {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -100,12 +91,7 @@
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
-                          {% if child.title_zh != blank or child.title_en != blank %}
-                            <span data-lang="zh">{{ child.title_zh | default: child.title }}</span>
-                            <span data-lang="en">{{ child.title_en | default: child.title }}</span>
-                          {% else %}
-                            {{- child.title -}}
-                          {% endif %}
+                          {{- child.title -}}
                         </a>
                       {% endif %}
                     {% endfor %}
@@ -122,12 +108,7 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {% if p.title_zh != blank or p.title_en != blank %}
-                      <span data-lang="zh">{{ p.title_zh | default: p.title }}</span>
-                      <span data-lang="en">{{ p.title_en | default: p.title }}</span>
-                    {% else %}
-                      {{- p.title }}
-                    {% endif %}
+                    {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -139,23 +120,13 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search / 搜索" onclick="openSearchModal()">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
               </button>
             </li>
           {% endif %}
-          {% if site.enable_language_toggle %}
-            <!-- Toggle language -->
-            <li class="toggle-container language-toggle-container">
-              <button id="language-toggle" type="button" title="Switch language">
-                <span class="language-option language-option-zh">中</span>
-                <span class="language-divider">/</span>
-                <span class="language-option language-option-en">EN</span>
-              </button>
-            </li>
-          {% endif %}
           {% if site.enable_darkmode %}
-            <!-- Toggle theme mode -->
+            <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="fa-half-sun-moon" id="light-toggle-system"></i>

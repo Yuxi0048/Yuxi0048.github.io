@@ -9,61 +9,28 @@
       <ul class="list-disc pl-8"></ul>
 
       <!-- Adds related posts to the end of an article -->
-      <h2 class="text-3xl font-semibold mb-4 mt-12">
-        <span data-lang="zh">继续阅读？</span>
-        <span data-lang="en">Enjoy Reading This Article?</span>
-      </h2>
+      <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
     {% else %}
-      <h2 class="text-3xl font-semibold mb-4 mt-12">
-        <span data-lang="zh">继续阅读？</span>
-        <span data-lang="en">Enjoy Reading This Article?</span>
-      </h2>
+      <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
     {% endif %}
 
-    <p class="mb-2">
-      <span data-lang="zh">下面是你可能还想阅读的文章：</span>
-      <span data-lang="en">Here are some more articles you might like to read next:</span>
-    </p>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
   {% endunless %}
 
   <li class="my-2">
     {% if post.redirect == blank %}
-      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.url | relative_url }}">
-        {% if post.title_zh != blank or post.title_en != blank %}
-          <span data-lang="zh">{{ post.title_zh | default: post.title }}</span>
-          <span data-lang="en">{{ post.title_en | default: post.title }}</span>
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </a>
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     {% elsif post.redirect contains '://' %}
-      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.redirect }}" target="_blank">
-        {% if post.title_zh != blank or post.title_en != blank %}
-          <span data-lang="zh">{{ post.title_zh | default: post.title }}</span>
-          <span data-lang="en">{{ post.title_en | default: post.title }}</span>
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </a>
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
       <svg width="1rem" height="1rem" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
         <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
     {% else %}
-      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.redirect | relative_url }}">
-        {% if post.title_zh != blank or post.title_en != blank %}
-          <span data-lang="zh">{{ post.title_zh | default: post.title }}</span>
-          <span data-lang="en">{{ post.title_en | default: post.title }}</span>
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </a>
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
     {% endif %}
   </li>
 {% endfor %}
 {% if site.newsletter.enabled and site.footer_fixed %}
-  <p class="mb-2" style="margin-top: 1.5rem !important">
-    <span data-lang="zh">订阅以接收后续文章通知：</span>
-    <span data-lang="en">Subscribe to be notified of future articles:</span>
-  </p>
+  <p class="mb-2" style="margin-top: 1.5rem !important">Subscribe to be notified of future articles:</p>
   {% include newsletter.liquid left=true %}
 {% endif %}

@@ -1,12 +1,8 @@
 ---
 layout: page
 title: projects
-title_zh: 项目
-title_en: projects
 permalink: /projects/
 description:
-description_zh:
-description_en:
 nav: true
 nav_order: 3
 display_categories:

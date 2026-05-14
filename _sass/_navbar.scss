@@ -155,8 +155,7 @@
   }
 }
 
-#light-toggle,
-#language-toggle {
+#light-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -173,34 +172,8 @@
   }
 }
 
-#language-toggle {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  font-size: 0.75rem;
-  gap: 0.2rem;
-  letter-spacing: 0;
-  line-height: 1;
-  min-width: 3.25rem;
-  padding: 0 0.45rem;
-
-  .language-option {
-    color: var(--global-text-color-light);
-  }
-
-  .language-divider {
-    color: var(--global-divider-color);
-  }
-}
-
-html[data-language="zh"] #language-toggle .language-option-zh,
-html[data-language="en"] #language-toggle .language-option-en {
-  color: var(--global-theme-color);
-  font-weight: 600;
-}
-
 @media (min-width: 576px) {
-  #light-toggle,
-  #language-toggle {
+  #light-toggle {
     transform: translateY(4px);
   }
 }

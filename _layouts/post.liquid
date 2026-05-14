@@ -15,29 +15,12 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if page.title_zh != blank or page.title_en != blank %}
-        <span data-lang="zh">{{ page.title_zh | default: page.title }}</span>
-        <span data-lang="en">{{ page.title_en | default: page.title }}</span>
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-    </h1>
+    <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      <span data-lang="zh">发布于</span>
-      <span data-lang="en">Created on</span>
-      {{ page.date | date: '%B %d, %Y' }}
-      {% if page.author %}
-        <span data-lang="zh">作者</span>
-        <span data-lang="en">by</span>
-        {{ page.author }}
-      {% endif %}
+      Created on {{ page.date | date: '%B %d, %Y' }}
+      {% if page.author %}by {{ page.author }}{% endif %}
       {% assign last_date = page.last_modified_at | default: page.last_updated %}
-      {% if last_date %}
-        <span data-lang="zh">，最后更新于</span>
-        <span data-lang="en">, last updated on</span>
-        {{ last_date | date: '%B %d, %Y' }}
-      {% endif %}
+      {% if last_date %}, last updated on {{ last_date | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">

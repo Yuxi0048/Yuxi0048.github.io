@@ -1,18 +1,14 @@
 ---
 layout: post
 title: "一则宣传 / An Advertisement"
-title_zh: 一则宣传
-title_en: An Advertisement
 date: 2026-05-14 00:00:00-04:00
 description: "欢迎点赞，收藏，转发我男朋友的AI动画，谢谢捧场！ Please like, favorite, and share my boyfriend's AI animations. Thank you for your support!"
-description_zh: "欢迎点赞，收藏，转发我男朋友的AI动画，谢谢捧场！"
-description_en: "Please like, favorite, and share my boyfriend's AI animations. Thank you for your support!"
 related_posts: false
 ---
 
-<span data-lang="zh">欢迎点赞，收藏，转发我男朋友的AI动画，谢谢捧场！</span>
+欢迎点赞，收藏，转发我男朋友的AI动画，谢谢捧场！
 
-<span data-lang="en">Please like, favorite, and share my boyfriend's AI animations. Thank you for your support!</span>
+Please like, favorite, and share my boyfriend's AI animations. Thank you for your support!
 
 <div class="platform-links" aria-label="AI动画平台链接 / AI animation platform links">
   <a href="https://www.youtube.com/@%E9%95%BF%E5%AE%89%E5%92%95%E5%98%8E" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">

@@ -21,14 +21,7 @@
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">
-                  {% if item.title_zh != blank or item.title_en != blank %}
-                    <span data-lang="zh">{{ item.title_zh | default: item.title }}</span>
-                    <span data-lang="en">{{ item.title_en | default: item.title }}</span>
-                  {% else %}
-                    {{ item.title }}
-                  {% endif %}
-                </a>
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
             </td>
           </tr>
@@ -36,9 +29,6 @@
       </table>
     </div>
   {% else %}
-    <p>
-      <span data-lang="zh">暂无动态。</span>
-      <span data-lang="en">No news so far...</span>
-    </p>
+    <p>No news so far...</p>
   {% endif %}
 </div>
