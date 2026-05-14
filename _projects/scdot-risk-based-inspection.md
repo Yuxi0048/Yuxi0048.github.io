@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Construction inspection and training system
+title: SCDOT Risk-based Inspection
 description:
-importance: 1
+importance: 3
 category: Construction inspection and training system
 ---

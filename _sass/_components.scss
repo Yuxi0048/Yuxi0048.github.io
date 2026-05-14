@@ -136,6 +136,10 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card {
+    .card-title {
+      font-size: 1.05rem;
+    }
+
     img {
       width: 100%;
     }
@@ -152,8 +156,9 @@ ul.task-list input[type="checkbox"] {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);
+    font-size: 1.2rem;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
