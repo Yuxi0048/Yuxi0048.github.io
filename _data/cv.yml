@@ -2,7 +2,7 @@ cv:
   name: Yuxi Zhang
   email: zhan2889@purdue.edu
   location: Lafayette, Indiana
-  website: https://Yuxi0048.github.io/
+  website: https://yuxi0048.github.io/
 
   social_networks:
     - network: GitHub
@@ -10,22 +10,27 @@ cv:
 
   sections:
     Education:
-      - institution: Purdue University - West Lafayette, Indiana
+      - institution: Purdue University
         studyType: "Ph.D. Candidate: Civil Engineering"
         start_date: 2019
         end_date: 2026
+        location: West Lafayette, IN
 
-      - institution: Purdue University - West Lafayette, Indiana
+      - institution: Purdue University
         studyType: "Master of Science: Civil Engineering"
         start_date: 2017
         end_date: 2019
+        location: West Lafayette, IN
 
-      - institution: Tianjin University - Tianjin, China
+      - institution: Tianjin University
         studyType: "Bachelor: Construction Management"
+        location: Tianjin, China
 
     Experience:
       - company: Purdue University
-        position: Research Assistant, 06/2022 - 12/2024
+        position: Research Assistant
+        start_date: 06/2022
+        end_date: 12/2024
         location: West Lafayette, IN
         summary: NSF PFI Project Underground Pipe Mapping for Safe Excavation
         highlights:
@@ -35,16 +40,20 @@ cv:
           - Led 100+ stakeholder interviews with utility owners, surveyors, and contractors to design and validate a practical business model
 
       - company: National Science Foundation
-        position: National I-Corps, 04/2023
+        position: National I-Corps
+        start_date: 04/2023
 
       - company: NSF I-Corps Hub Great Lakes Region
-        position: Regional I-Corps, 07/2022
+        position: Regional I-Corps
+        start_date: 07/2022
         summary: Great Lakes I-Corps Course Completion
         image: NSF I-Corps Hub Great Lakes Region - Great Lakes I-Corps Course Completion - 2022-07-08.svg
         image_alt: NSF I-Corps Hub Great Lakes Region badge
 
       - company: Purdue University
-        position: Research Assistant, 01/2018 - 05/2025
+        position: Research Assistant
+        start_date: 01/2018
+        end_date: 05/2025
         location: West Lafayette, IN
         summary: INDOT and SCDOT Risk-based Inspection Project
         highlights:
@@ -55,7 +64,9 @@ cv:
           - Collaborated on web-based system development for inspection training
 
       - company: Purdue University
-        position: Teaching Assistant, 01/2018 - 05/2025
+        position: Teaching Assistant
+        start_date: 01/2018
+        end_date: 05/2025
         location: West Lafayette, IN
         highlights:
           - "[Computer Applications in Construction](https://www.youtube.com/playlist?list=PLUwQEimVf25QZEfB3w1wzwIPGDcdtEzuL)"
@@ -63,7 +74,9 @@ cv:
           - Practical Applications for Construction Engineering
 
       - company: United Construction Management (Beijing) Consulting Co., Ltd.
-        position: Intern, 08/2016 - 12/2016
+        position: Intern
+        start_date: 08/2016
+        end_date: 12/2016
         location: Beijing, China
         highlights:
           - Performed forensic construction delay analysis using BIM to support project dispute resolution
@@ -113,6 +126,8 @@ cv:
       - name: Skilled in GPR Simulation using gprMax
 
     Awards:
-      - title: K.B Woods Awards. Transportation Research Board
+      - title: K.B. Woods Awards
+        awarder: Transportation Research Board
+        date: 2019
       - title: First Prize, ASCE Data Sensing and Analysis Shared Data Repository Proposal Competition
-      - title: Completion of NSF National I-Corps Program
+        date: 2021

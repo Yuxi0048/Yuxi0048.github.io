@@ -6,7 +6,7 @@ This repository contains a personal GitHub Pages site based on the
 Target site:
 
 ```text
-https://Yuxi0048.github.io/
+https://yuxi0048.github.io/
 ```
 
 ## What Was Customized
@@ -34,8 +34,8 @@ https://Yuxi0048.github.io/
 For a personal site under the `Yuxi0048` account, `_config.yml` must keep:
 
 ```yaml
-url: https://Yuxi0048.github.io
-baseurl:
+url: https://yuxi0048.github.io
+baseurl: ""
 ```
 
 ## Local Preview
