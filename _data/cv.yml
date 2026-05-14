@@ -11,7 +11,14 @@ cv:
   sections:
     Education:
       - institution: Purdue University - West Lafayette, Indiana
-        studyType: "Master of Science, Ph.D. Candidate: Civil Engineering"
+        studyType: "Ph.D. Candidate: Civil Engineering"
+        start_date: 2019
+        end_date: 2026
+
+      - institution: Purdue University - West Lafayette, Indiana
+        studyType: "Master of Science: Civil Engineering"
+        start_date: 2017
+        end_date: 2019
 
       - institution: Tianjin University - Tianjin, China
         studyType: "Bachelor: Construction Management"
@@ -64,16 +71,36 @@ cv:
 
     Publications:
       - title: "Zhang, Y., & Cai, H. (2026). GPR-Aided Localization for Construction and Survey Robots in Visually Degraded, GNSS-Denied Environments. Automation in Construction (Under Review)."
-      - title: "Zhang, Y., & Cai, H. (2026). Uncertainty-Aware Localization and Orientation Estimation of Underground Pipelines from GPR Data. Advanced Engineering Informatics, https://doi.org/10.1016/j.aei.2025.104093."
-      - title: "Zhang, Y., & Cai, H. (2024). Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks. In ISARC. Proceedings of the International Symposium on Automation and Robotics in Construction (Vol. 41, pp. 936-943). IAARC Publications. https://doi.org/10.22260/ISARC2024/0121"
-      - title: "Zhang, Y., Cai, J & Cai, H. (2020). CNN-Based Symbol Recognition in Piping Drawings. Construction Research Congress 2020"
+      - title: "Zhang, Y., & Cai, H. (2026). Uncertainty-aware localization and orientation estimation of underground pipelines from GPR data. Advanced Engineering Informatics, 69, 104093. https://doi.org/10.1016/j.aei.2025.104093"
+        url: https://doi.org/10.1016/j.aei.2025.104093
+      - title: "Zhang, Y., & Cai, H. (2024). Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks. ISARC. Proceedings of the International Symposium on Automation and Robotics in Construction, 41, 936-943. https://doi.org/10.22260/ISARC2024/0121"
+        url: https://doi.org/10.22260/ISARC2024/0121
+      - title: "Jeon, J. H., Zhang, Y., Yang, L., Xu, X., Cai, H., & Tran, D. (2023). Risk breakdown matrix for risk-based inspection of transportation infrastructure projects. Journal of Construction Engineering and Management, 149(4), 04023007. https://doi.org/10.1061/JCEMD4.COENG-12783"
+        url: https://doi.org/10.1061/JCEMD4.COENG-12783
+      - title: "Cai, H., Zhang, Y., Jeon, J. H., & Yang, L. (2022). Risk-based inspection. South Carolina. Department of Transportation."
+        url: https://rosap.ntl.bts.gov/view/dot/66411
+      - title: "Jeon, J. H., Xu, X., Zhang, Y., Yang, L., & Cai, H. (2021). Extraction of construction quality requirements from textual specifications via natural language processing. Transportation Research Record, 2675(9), 222-237. https://doi.org/10.1177/03611981211001385"
+        url: https://doi.org/10.1177/03611981211001385
+      - title: "Cai, J., Yang, L., Zhang, Y., Li, S., & Cai, H. (2021). Multitask learning method for detecting the visual focus of attention of construction workers. Journal of Construction Engineering and Management, 147(7), 04021063. https://doi.org/10.1061/(ASCE)CO.1943-7862.0002071"
+        url: https://doi.org/10.1061/(ASCE)CO.1943-7862.0002071
+      - title: "Xu, X., Jeon, J. H., Zhang, Y., Yang, L., & Cai, H. (2021). Automatic generation of customized checklists for digital construction inspection. Transportation Research Record, 2675(5), 418-435. https://doi.org/10.1177/0361198121995825"
+        url: https://doi.org/10.1177/0361198121995825
+      - title: "Cai, H., Jeon, J. H., Xu, X., Zhang, Y., & Yang, L. (2020). Automating the generation of construction checklists. Purdue University. Joint Transportation Research Program. https://doi.org/10.5703/1288284317273"
+        url: https://doi.org/10.5703/1288284317273
+      - title: "Cai, J., Zhang, Y., Yang, L., Cai, H., & Li, S. (2020). A context-augmented deep learning approach for worker trajectory prediction on unstructured and dynamic construction sites. Advanced Engineering Informatics, 46, 101173. https://doi.org/10.1016/j.aei.2020.101173"
+        url: https://doi.org/10.1016/j.aei.2020.101173
+      - title: "Zhang, Y., Cai, J., & Cai, H. (2020). CNN-Based Symbol Recognition in Piping Drawings. Construction Research Congress 2020, 576-584. https://doi.org/10.1061/9780784482865.061"
         url: https://ascelibrary.org/doi/10.1061/9780784482865.061
-      - title: "Jeon, J., Zhang, Y., Yang, L., Xu, X., Cai, H. & Tran, D. (2023). Risk Breakdown Matrix for Risk-based Inspection of Transportation Infrastructure Projects. Journal of Construction Engineering and Management."
-      - title: "Xu, X., Jeon, J., Zhang, Y., Yang, L., & Cai, H. (2021). Automatic Generation of Customized Checklists for Digital Construction Inspection. Transportation Research Record, 0361198121995825. https://doi.org/10.1177/0361198121995825"
-      - title: "Cai, J,, Yang, L., Zhang, Y., Li, S., & Cai, H. (2021). Multitask Learning Method for Detecting the Visual Focus of Attention of Construction Workers. Journal of Construction Engineering and Management, 147(7). https://doi.org/10.1061/(ASCE)CO.1943-7862.0002071"
-      - title: "Cai, J,, Zhang, Y., Yang, L., Cai, H., & Li, S. (2020). A context-augmented deep learning approach for worker trajectory prediction on unstructured and dynamic construction sites. Advanced Engineering Informatics, 46, 101173–. https://doi.org/10.1016/j.aei.2020.101173"
-      - title: "Cai, J,, Zhang, Y., & Cai, H. (2019). Two-step long short-term memory method for identifying construction activities through positional and attentional cues. Automation in Construction, 106, 102886. https://doi.org/10.1016/j.autcon.2019.102886"
-      - title: "Xu, Yuan, C., Zhang, Y., Cai, H., Abraham, D. M., & Bowman, M. D. (2019). Ontology-Based Knowledge Management System for Digital Highway Construction Inspection. Transportation Research Record, 2673(1), 52–65. https://doi.org/10.1177/0361198118823499"
+      - title: "Zhang, Y. (2019). CNN-based symbol recognition and detection in piping drawings. Purdue University."
+        url: https://docs.lib.purdue.edu/dissertations/AAI30503187/
+      - title: "Cai, J., Zhang, Y., & Cai, H. (2019). Integrating positional and attentional cues for construction working group identification: A long short-term memory based machine learning approach. ASCE International Conference on Computing in Civil Engineering 2019, 35-42. https://doi.org/10.1061/9780784482438.005"
+        url: https://doi.org/10.1061/9780784482438.005
+      - title: "Cai, J., Zhang, Y., & Cai, H. (2019). Two-step long short-term memory method for identifying construction activities through positional and attentional cues. Automation in Construction, 106, 102886. https://doi.org/10.1016/j.autcon.2019.102886"
+        url: https://doi.org/10.1016/j.autcon.2019.102886
+      - title: "Xu, X., Yuan, C., Zhang, Y., Cai, H., Abraham, D. M., & Bowman, M. D. (2019). Ontology-based knowledge management system for digital highway construction inspection. Transportation Research Record, 2673(1), 52-65. https://doi.org/10.1177/0361198118823499"
+        url: https://doi.org/10.1177/0361198118823499
+      - title: "Xu, X., Zhang, Y., Yuan, C., Cai, H., Abraham, D. M., & Bowman, M. D. (2019). Risk-based construction inspection. Joint Transportation Research Program. https://doi.org/10.5703/1288284316916"
+        url: https://doi.org/10.5703/1288284316916
 
     Skills:
       - name: Bayesian Inference & Uncertainty Quantification
