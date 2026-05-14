@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Started a GitHub Pages portfolio draft using al-folio.
+<span data-lang="en">Started a GitHub Pages portfolio draft using al-folio.</span>
+<span data-lang="zh">开始使用 al-folio 搭建 GitHub Pages 个人主页草稿。</span>

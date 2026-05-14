@@ -122,6 +122,14 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+// Language visibility
+
+html:not([data-language]) [data-lang="zh"],
+html[data-language="zh"] [data-lang="en"],
+html[data-language="en"] [data-lang="zh"] {
+  display: none !important;
+}
+
 // Copy button
 
 .code-display-wrapper {
