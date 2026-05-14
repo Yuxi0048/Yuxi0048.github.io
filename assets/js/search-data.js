@@ -40,21 +40,31 @@ ninja.data = [{
         },{id: "news-started-a-github-pages-portfolio-draft-using-al-folio",
           title: 'Started a GitHub Pages portfolio draft using al-folio.',
           description: "",
-          section: "News",},{id: "projects-construction-inspection-and-training-system",
-          title: 'Construction inspection and training system',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/construction-inspection-training-system/";
-            },},{id: "projects-gpr-wheel-encoder-imu-localization",
+          section: "News",},{id: "projects-gpr-wheel-encoder-imu-localization",
           title: 'GPR Wheel Encoder--IMU Localization',
           description: "GPR-aided localization for construction and survey robots operating in visually degraded, GNSS-denied environments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gpr-wheel-imu-localization/";
+            },},{id: "projects-indot-inspection-training-system",
+          title: 'INDOT Inspection Training System',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/indot-inspection-training-system/";
+            },},{id: "projects-indot-risk-based-inspection",
+          title: 'INDOT Risk-based Inspection',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/indot-risk-based-inspection/";
             },},{id: "projects-pipe-network-completion",
           title: 'Pipe Network Completion',
           description: "Research code package for Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pipe-network-completion/";
+            },},{id: "projects-scdot-risk-based-inspection",
+          title: 'SCDOT Risk-based Inspection',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/scdot-risk-based-inspection/";
             },},{id: "projects-uncertainty-aware-pipe-localization",
           title: 'Uncertainty-Aware Pipe Localization',
           description: "Uncertainty-aware localization and orientation estimation of underground pipelines using Ground Penetrating Radar (GPR) data.",
