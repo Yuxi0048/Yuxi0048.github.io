@@ -1,0 +1,127 @@
+cv:
+  name: Yuxi Zhang
+  label: Ph.D. Candidate in Civil Engineering
+  email: zhan2889@purdue.edu
+  location: West Lafayette, Indiana
+  website: https://Yuxi0048.github.io
+  summary: >
+    Civil engineering Ph.D. candidate at Purdue University working on
+    ground penetrating radar (GPR), underground utility mapping,
+    uncertainty-aware localization, construction robotics, digital twins, and
+    infrastructure inspection systems.
+
+  social_networks:
+    - network: GitHub
+      username: Yuxi0048
+
+  sections:
+    Education:
+      - institution: Purdue University
+        location: West Lafayette, Indiana
+        area: Civil Engineering
+        studyType: Master of Science, Ph.D. Candidate
+
+      - institution: Tianjin University
+        location: Tianjin, China
+        area: Construction Management
+        studyType: Bachelor
+
+    Experience:
+      - company: Purdue University
+        position: Research Assistant, NSF PFI Project Underground Pipe Mapping for Safe Excavation
+        location: West Lafayette, IN
+        start_date: 2022-06
+        end_date: 2024-12
+        highlights:
+          - Developed algorithms for GPR-based 3D pipe mapping, including uncertainty quantification for pipe localization and orientation, multi-hyperbolic signature detection and tracking, and radargram decluttering.
+          - Designed a graph neural network based utility network completion method using ground features, anchor points, and partial maps to infer missing pipeline segments and enhance subsurface digital twins.
+          - Engineered a construction excavator digital twin for safety, including IMU-based excavator arm motion replication, digital terrain visualization, and object-motion simulations in Unity 3D.
+          - Led more than 100 stakeholder interviews with utility owners, surveyors, and contractors to design and validate a practical business model.
+
+      - company: Purdue University
+        position: Research Assistant, INDOT and SCDOT Risk-based Inspection Project
+        location: West Lafayette, IN
+        start_date: 2018-01
+        end_date: 2025-05
+        highlights:
+          - Designed surveys for construction-activity risk assessment.
+          - Converted standard specifications into structured inspection checklists.
+          - Developed a risk-based construction inspection system using Microsoft Access.
+          - Collaborated on a web-based digital inspection training system.
+
+      - company: Purdue University
+        position: Teaching Assistant
+        location: West Lafayette, IN
+        start_date: 2018-01
+        end_date: 2025-05
+        highlights:
+          - Computer Applications in Construction.
+          - Life Cycle Engineering and Management of Constructed Facilities.
+          - Practical Applications for Construction Engineering.
+
+      - company: United Construction Management (Beijing) Consulting Co., Ltd.
+        position: Intern
+        location: Beijing, China
+        start_date: 2016-08
+        end_date: 2016-12
+        highlights:
+          - Performed forensic construction delay analysis using BIM to support project dispute resolution.
+          - Developed a coding system to improve project documentation.
+
+    Publications:
+      - title: GPR-Aided Localization for Construction and Survey Robots in Visually Degraded, GNSS-Denied Environments
+        authors:
+          - Yuxi Zhang
+          - H. Cai
+        publisher: Automation in Construction, under review
+        releaseDate: 2026
+
+      - title: Uncertainty-Aware Localization and Orientation Estimation of Underground Pipelines from GPR Data
+        authors:
+          - Yuxi Zhang
+          - H. Cai
+        publisher: Advanced Engineering Informatics
+        releaseDate: 2026
+        url: https://doi.org/10.1016/j.aei.2025.104093
+
+      - title: Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks
+        authors:
+          - Yuxi Zhang
+          - H. Cai
+        publisher: Proceedings of the International Symposium on Automation and Robotics in Construction
+        releaseDate: 2024
+        url: https://doi.org/10.22260/ISARC2024/0121
+
+      - title: CNN-Based Symbol Recognition in Piping Drawings
+        authors:
+          - Yuxi Zhang
+          - J. Cai
+          - H. Cai
+        publisher: Construction Research Congress 2020
+        releaseDate: 2020
+
+    Skills:
+      - name: GPR and sensing
+        keywords: "Ground penetrating radar, radar signal processing, GPR simulation with gprMax, geophysical inversion methods"
+      - name: Inference and learning
+        keywords: "Bayesian inference, uncertainty quantification, machine learning, deep neural networks, graph neural networks"
+      - name: Research software
+        keywords: "Python, PyTorch, PyMC, database design and management, reproducible experiment pipelines"
+      - name: Localization and robotics
+        keywords: "Simultaneous localization and mapping, wheel encoder-IMU localization, construction robotics, digital twins"
+
+    Awards:
+      - title: K.B. Woods Award
+        awarder: Transportation Research Board
+
+      - title: First Prize, ASCE Data Sensing and Analysis Shared Data Repository Proposal Competition
+        awarder: ASCE
+
+      - title: Completion of NSF National I-Corps Program
+        awarder: National Science Foundation
+
+    Interests:
+      - name: Infrastructure sensing
+        keywords: "underground utility mapping, subsurface digital twins, GPR-aided construction safety"
+      - name: Geospatial AI
+        keywords: "utility network completion, uncertainty-aware localization, field-scale evaluation"

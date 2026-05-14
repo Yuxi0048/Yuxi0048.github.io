@@ -1,0 +1,22 @@
+"AEI":
+  url: https://www.sciencedirect.com/journal/advanced-engineering-informatics
+  color: "#0b7285"
+
+"AIC":
+  url: https://www.sciencedirect.com/journal/automation-in-construction
+  color: "#1864ab"
+
+"CRC":
+  color: "#5f3dc4"
+
+"ISARC":
+  url: https://www.iaarc.org/
+  color: "#2b8a3e"
+
+"JCEM":
+  url: https://ascelibrary.org/journal/jcemd4
+  color: "#c92a2a"
+
+"TRR":
+  url: https://journals.sagepub.com/home/trr
+  color: "#e67700"
