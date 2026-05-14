@@ -18,4 +18,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yuxi Zhang, a Ph.D. candidate in Civil Engineering at Purdue University working on ground penetrating radar (GPR)-based underground utility mapping. TBD
+I am Yuxi Zhang, working on ground penetrating radar (GPR)-based underground utility mapping. TBD
