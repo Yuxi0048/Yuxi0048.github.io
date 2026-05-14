@@ -15,7 +15,9 @@
                 <span class="visibility-badge">{{ project.visibility }}</span>
               {% endif %}
             </h3>
-            <p class="card-text">{{ project.description }}</p>
+            {% if project.description %}
+              <p class="card-text">{{ project.description }}</p>
+            {% endif %}
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
