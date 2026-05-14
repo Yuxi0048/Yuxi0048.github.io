@@ -6,11 +6,9 @@ subtitle: Ph.D. Candidate in Civil Engineering, Purdue University
 
 profile:
   align: right
-  image:
+  image: github-profile.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Purdue University</p>
-    <p>West Lafayette, Indiana</p>
     <p><a href="https://github.com/Yuxi0048">GitHub: Yuxi0048</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
