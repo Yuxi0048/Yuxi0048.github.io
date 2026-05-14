@@ -5,15 +5,15 @@ repo_description_lines_max: 2
 github_repos:
   - name: Yuxi0048/PipeNetworkCompletion
     url: https://github.com/Yuxi0048/PipeNetworkCompletion
-    description: Underground utility network completion using graph neural networks and spatial contextual information.
+    description: Research code package for Underground Utility Network Completion based on Spatial Contextual Information of Ground Facilities and Utility Anchor Points using Graph Neural Networks.
     visibility: Public
 
   - name: Yuxi0048/Uncertainty-Aware
     url: https://github.com/Yuxi0048/Uncertainty-Aware
-    description: Uncertainty-aware localization and orientation estimation of underground pipelines from GPR data.
+    description: Uncertainty-aware localization and orientation estimation of underground pipelines using Ground Penetrating Radar (GPR) data.
     visibility: Private
 
   - name: Yuxi0048/wheel-imu-gpr
     url: https://github.com/Yuxi0048/wheel-imu-gpr
-    description: GPR-aided localization for construction and survey robots in visually degraded, GNSS-denied environments.
+    description: GPR-aided localization for construction and survey robots operating in visually degraded, GNSS-denied environments.
     visibility: Private

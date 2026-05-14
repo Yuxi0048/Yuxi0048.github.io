@@ -27,8 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yuxi Zhang, a Ph.D. candidate in Civil Engineering at Purdue University working on ground penetrating radar (GPR), underground utility mapping, uncertainty-aware localization, construction robotics, digital twins, and infrastructure inspection systems.
-
-My current work focuses on GPR-aided localization and orientation estimation for underground pipelines and construction or survey robots operating in visually degraded, GNSS-denied environments. I also work on graph neural network methods for utility network completion using ground features, anchor points, and partial maps to improve subsurface digital twins.
-
-My broader experience includes risk-based digital inspection systems for transportation infrastructure, BIM-supported forensic delay analysis, and digital twin systems for construction excavators. This site collects selected publications, projects, public repositories, and CV information.
+I am Yuxi Zhang, a Ph.D. candidate in Civil Engineering at Purdue University working on ground penetrating radar (GPR)-based underground utility mapping. TBD
